@@ -387,7 +387,7 @@ export interface MjmlTextProps {
     fontFamily?: string;
     fontSize?: string | number;
     fontStyle?: string;
-    fontWeight?: number;
+    fontWeight?: 100 | 200 | 300 | 400 | 500 | 600 | 700 | 800 | 900 | 'normal' | 'bold' | 'bolder' | 'lighter';
     lineHeight?: string;
     letterSpacing?: string;
     height?: string | number;
